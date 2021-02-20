@@ -8,8 +8,7 @@ package com.damein.damein.strategy;
  **/
 public class RoleB extends GameRole {
 
-    public RoleB(String name)
-    {
+    public RoleB(String name) {
         this.name = name;
     }
 

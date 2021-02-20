@@ -14,6 +14,6 @@ public class ChainOfResponsibilityPattern {
         Handler handler2 = new ConcreteHandler2();
         handler1.setNext(handler2);
         //提交请求
-        handler1.handleRequest("one");
+        handler1.handleRequest("two");
     }
 }
